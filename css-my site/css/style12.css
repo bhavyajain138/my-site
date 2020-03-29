@@ -156,3 +156,36 @@ user agent stylesheet html {
   position: relative;
   padding: 50px 0px 20px ;
 }
+.header-2{
+  font-size: 70px;
+  color: #116979;
+  padding-top: 50px;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  padding-bottom: 50px;
+}
+.myButton {
+	box-shadow: 3px 4px 7px 2px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color: #ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	font-style:italic;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
